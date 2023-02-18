@@ -1,4 +1,5 @@
 local KnifeHat = "Robloxclassicred"
+game.Players.LocalPlayer.Character:FindFirstChild(KnifeHat).Handle.Mesh:Destroy()
 if not game.Players.LocalPlayer.Character:FindFirstChild(KnifeHat) then
 game.Players.LocalPlayer.Character.Torso:Destroy()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
