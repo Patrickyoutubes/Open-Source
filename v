@@ -384,7 +384,7 @@ UICorner(subs)
 
 subs.MouseButton1Click:Connect(function()
 
---setclipboard("https://youtube.com/@Im_Patrick")
+setclipboard("https://youtube.com/@Im_Patrick")
 
 subs.Text = "copied!"
 wait(0.2)
@@ -555,7 +555,7 @@ settingsb.BackgroundColor3 = Color3.new(0, 0, 0)
 	settingsb.BackgroundColor3 = Color3.new(255, 255, 255)
 	settingsb.Text = "Copy"
 else
---setclipboard(Textbox.Text)
+setclipboard(Textbox.Text)
 	settingsb.BackgroundColor3 = Color3.new(0, 0, 0)
 	settingsb.TextColor3 = Color3.new(255, 255, 255)
 	settingsb.Text = "Copied!"
